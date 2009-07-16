@@ -179,6 +179,7 @@ body {
 	margin-bottom:15px;
 	padding:20px;
 	padding-bottom:0;
+    overflow:hidden;
 	-moz-border-radius:10px;
 }
 
