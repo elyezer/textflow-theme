@@ -1,6 +1,9 @@
 jQuery(document).ready(function($) {
+	//Adding Documentation menu item
+	$('#navigation li:last').before('<li class="page_item"><a title="Documentation" href="http://docs.textflowproject.org/">Documentation</a></li>');
+
 	var height = -420;
-	var width = -940;
+	var width = -780;
 	var links = $('.tabs a');
 
 	function horizontal_slide (position, width){
